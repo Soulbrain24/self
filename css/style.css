@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:wght@300;500;600;900&display=swap');
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f0f0f0;
+}
+#alex { 
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+
+}
+#alex h1 {
+  border: 4px solid rgba(0, 129, 167, 0.33);
+  font-family: 'Inconsolata';
+  font-weight: 400;
+  font-size: 96px;
+  color: #F97068;
+  padding: 18px 112px;
+}
+#avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 48px;
+  color: #0081A7;
+  margin-top: 80px;
+}
+#divided {
+  margin-top: 180px;
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+.container h1 {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 40px;
+  color: #0081A7;
+  margin-top: 44px;
+}
+.container h2 {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 48px;
+  color: #0081A7;
+  margin-top: 60px;
+}
+.container h3 {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 36px;
+  color: #0081A7;
+}
+#xp p, #contact p, #edu p, #skills p{
+  font-family: 'Inconsolata';
+  font-weight: 400;
+  font-size: 96px;
+  color: #F97068;
+}
+#xp, #contact {
+  text-align: right;
+}
+
+#contact div p {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 36px;
+  color: #0081A7;
+}
+#contact, #skills { 
+  margin-top: 107px;
+}
+#contact div {
+  margin-top: 53px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+#skills div{
+  margin-bottom: 60px;
+  margin-top: 38px;
+}
+#skills div img {
+  margin-right: 60px;
+}
